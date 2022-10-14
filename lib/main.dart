@@ -14,13 +14,18 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.black,
+        primarySwatch: Colors.blue,
       ),
       home: const HomeView(),
     );
   }
 }
 
-class 
+class HomeView extends StatelessWidget {
+  const HomeView({Key? key}) : super(key: key);
 
-
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
