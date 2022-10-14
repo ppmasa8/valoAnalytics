@@ -10,10 +10,10 @@ class HomeView extends StatelessWidget {
         title: const Text(
           "Valorant",
           style:
-              TextStyle(color: Color(0xff110D2F), fontWeight: FontWeight.bold),
+              TextStyle(color: Color(0xffFFFFFF), fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
-        backgroundColor: const Color(0xffFFFFFF),
+        backgroundColor: const Color(0xff110D2F),
         elevation: 0,
       ),
     );
