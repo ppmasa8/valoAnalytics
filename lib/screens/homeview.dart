@@ -18,11 +18,10 @@ class HomeView extends StatelessWidget {
       ),
       body: Align(
         alignment: Alignment.topCenter,
-        child: Container(
-            child: ClipRRect(
+        child: ClipRRect(
           borderRadius: BorderRadius.circular(10.0),
           child: Image.asset('lib/images/VALORANT_Jett_Red_crop.0.jpg'),
-        )),
+        ),
       ),
     );
   }
