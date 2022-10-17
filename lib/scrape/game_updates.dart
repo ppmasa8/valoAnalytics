@@ -16,7 +16,6 @@ void main() async {
 
   final document = parse(response.body);
 
-
   final title = document.querySelectorAll('h2').map((v) => v.text).toList();
 
   print(title);
